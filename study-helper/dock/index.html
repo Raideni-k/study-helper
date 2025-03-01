@@ -1,0 +1,25 @@
+<!-- docs/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>学习计划生成器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📚 AI学习助手</h1>
+        <div class="card">
+            <form id="planForm">
+                <input type="text" id="goal" placeholder="输入学习目标" required>
+                <select id="time">
+                    <option value="1h">每天1小时</option>
+                    <option value="2h">每天2小时</option>
+                </select>
+                <button type="submit">生成计划</button>
+            </form>
+            <div id="result" class="result-box"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
